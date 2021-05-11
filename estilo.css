@@ -1,0 +1,54 @@
+#calculadora {
+	width: 280px;
+	background-color: blue;
+	display: inline-block;
+	border-radius: 10px;
+	margin: auto;
+	padding: 1% 2% 1% 2%;
+ }
+
+#visor {
+	font-size: 1.5em;
+	padding: 3% 10% 5% 3%;
+	text-align: right;
+	display: block;
+	margin-bottom: 5%;
+
+	border-radius: 10px;
+	background-color: white;
+ }
+
+#conjutoDBotoes {
+	margin: auto;
+ }
+
+.operaçoes {
+	background-color: red;
+	margin-left: 8%;
+	padding: 5%  7% 5% 7%;
+	box-shadow: 1px 1px 2px black;
+}
+
+.butao {
+	margin-left:10%;
+	margin-bottom: 5%;
+	padding: 5%  7% 5% 7%;
+	box-shadow: 1px 1px 2px black;
+ }
+
+.butao:hover {
+	background-color: gray;
+}
+
+.button {
+	margin-bottom: 5%;
+	padding: 5%  7% 5% 7%;
+	box-shadow: 1px 1px 2px black;
+}
+
+.button:hover {
+	background-color: gray;
+ }
+ h1 {
+ 	text-align: center;
+ }
