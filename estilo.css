@@ -3,16 +3,21 @@
 }
 
 body {
-	background-color: rgb(30,30,30);
+	background-image: linear-gradient(to left, rgb(24, 115, 131), rgb(41, 142, 192), rgb(16, 110, 133));
 }
 
 #calculadora {
 	margin: auto;
 	width: 190px;
-	background-color: skyblue;
+	background-color: rgba(29, 84, 235, 0.753);
 	display: block;
 	border-radius: 10px;
 	padding: 1% 2% 1% 2%;
+	border-top:1px solid rgb(220, 222, 223);
+	border-bottom:1px solid rgb(201, 201, 201);
+	border-left:1px solid rgb(214, 214, 214);
+	border-right:1px solid rgb(201, 201, 201);
+	box-shadow: 0px 1px 1px rgb(220, 222, 223);
  }
 
 #visor {
@@ -30,24 +35,42 @@ body {
  }
 
 .operaçoes {
+	color:rgb(215, 215, 216);
 	margin: auto;
 	margin-left: 5.5%;
-	background-color: red;
+	background-color: rgba(228, 0, 0, 0.678);
 	padding: 5%  7% 5% 7%;
 	box-shadow: 1px 1px 2px black;
+	border-top:1px solid rgb(223, 222, 222);
+	border-bottom:1px solid rgb(106, 112, 138);
+	border-left:1px solid rgb(211, 211, 211);
+	border-right:1px solid rgb(126, 126, 126);
+}
+
+.operaçoes:hover {
+	background-color: rgba(247, 8, 8, 0.863);
+	transition: 190ms;
+	animation-direction: to left;
 }
 
 .butao {
 	margin:auto;
 	margin-bottom: 3%;
+	background-color: rgb(199, 196, 196);
 	padding: 5%  7% 5% 7%;
 	box-shadow: 1px 1px 2px black;
+	border-top:1px solid rgb(253, 253, 253);
+	border-bottom:1px solid rgb(106, 112, 138);
+	border-left:1px solid rgb(255, 255, 255);
+	border-right:1px solid rgb(126, 126, 126);
  }
 
 .butao:hover {
-	background-color: gray;
+	background-color: rgb(231, 231, 231);
 }
 
 h1 {
+	color: rgb(236, 236, 236);
+	text-shadow: 1px 1px 2px rgb(37, 37, 37);
  	text-align: center;
  }
