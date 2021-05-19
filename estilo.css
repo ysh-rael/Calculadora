@@ -1,19 +1,26 @@
+ * {
+            font-family: monospace;
+}
+
+body {
+	background-color: rgb(25,25,25);
+}
+
 #calculadora {
-	width: 280px;
-	background-color: blue;
-	display: inline-block;
-	border-radius: 10px;
 	margin: auto;
+	width: 190px;
+	background-color: skyblue;
+	display: block;
+	border-radius: 10px;
 	padding: 1% 2% 1% 2%;
  }
 
 #visor {
+	padding: 3% 3% 3% 3%;
 	font-size: 1.5em;
-	padding: 3% 10% 5% 3%;
 	text-align: right;
 	display: block;
 	margin-bottom: 5%;
-
 	border-radius: 10px;
 	background-color: white;
  }
@@ -23,15 +30,16 @@
  }
 
 .operaçoes {
+	margin: auto;
+	margin-left: 5.5%;
 	background-color: red;
-	margin-left: 8%;
 	padding: 5%  7% 5% 7%;
 	box-shadow: 1px 1px 2px black;
 }
 
 .butao {
-	margin-left:10%;
-	margin-bottom: 5%;
+	margin:auto;
+	margin-bottom: 3%;
 	padding: 5%  7% 5% 7%;
 	box-shadow: 1px 1px 2px black;
  }
@@ -40,15 +48,6 @@
 	background-color: gray;
 }
 
-.button {
-	margin-bottom: 5%;
-	padding: 5%  7% 5% 7%;
-	box-shadow: 1px 1px 2px black;
-}
-
-.button:hover {
-	background-color: gray;
- }
- h1 {
+h1 {
  	text-align: center;
  }
