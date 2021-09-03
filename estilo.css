@@ -3,13 +3,13 @@
 }
 
 body {
-	background-image: linear-gradient(to left, rgb(24, 115, 131), rgb(41, 142, 192), rgb(16, 110, 133));
+	background-color: #575954;
 }
 
 #calculadora {
 	margin: auto;
 	width: 190px;
-	background-color: rgba(29, 84, 235, 0.753);
+	background-color: #164659;
 	display: block;
 	border-radius: 10px;
 	padding: 1% 2% 1% 2%;
